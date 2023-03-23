@@ -1,0 +1,32 @@
+.newsletter{
+  background: linear-gradient(180deg, #ff9370 0, #fe642e 100%);
+  color: #fff;
+  .container {
+    .newsletter-block{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      max-width: 1400px;
+      flex-wrap: wrap;
+      .newsletter-text{
+        font-size: 16px;
+        color: #fff;
+      }
+      form{
+        width: 390px;
+        max-width: 100%;
+        border-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        input{
+          max-width: 400px;
+          background-color: transparent;
+          border: 0;
+        }
+        button{
+
+        }
+      }
+    }
+  }
+}

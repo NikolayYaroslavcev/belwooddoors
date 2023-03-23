@@ -1,0 +1,44 @@
+.map{
+  margin-bottom: 70px;
+  .container{
+    .map-wrap{
+      display: flex;
+      flex-direction: column;
+      .map-header{
+        margin-bottom: 20px;
+        h2{
+
+        }
+      }
+      .popular-block{
+        margin-bottom: 26px;
+        .nav{
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          flex-wrap: wrap;
+          .nav-item{
+            .nav-link{
+              font-weight: 400;
+              font-size: 17px;
+              line-height: 21px;
+              text-decoration-line: underline;
+              color: #FF562E;
+            }
+            .nav-button{
+              padding: 10px 20px;
+              background: #FF652E;
+              border-radius: 8px;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 19px;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}

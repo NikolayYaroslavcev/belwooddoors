@@ -1,21 +1,25 @@
 extends ../layout/main
 
 block variables
-  - const title = 'Главная';
+    - const title = 'Главная';
 
 block libs-js
-  script(defer src="./libs/swiper-bundle.min.js")
-  script(src="./js/scripts/mp.js")
+    script(defer src="./libs/swiper-bundle.min.js")
+    script(src="./js/scripts/mp.js")
 
 block libs-css
-  link(rel="stylesheet" type='text/css' href="./libs/swiper-bundle.min.css")
-  link(rel="stylesheet" type='text/css' href="./css/mp.css")
+    link(rel="stylesheet" type='text/css' href="./libs/swiper-bundle.min.css")
+    link(rel="stylesheet" type='text/css' href="./css/mp.css")
 
 block content
-  include ../modules/header
-  main
-      include ../modules/catalog
-      include ../modules/interiors
-      include ../modules/choice
+    include ../modules/header
+    main
+        include ../modules/catalog
+        include ../modules/interiors
+        include ../modules/choice
+        include ../modules/popular
+        include ../modules/map
+        include ../modules/products
+        include ../modules/newsletter
 
-  include ../modules/footer
+    include ../modules/footer

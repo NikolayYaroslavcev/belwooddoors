@@ -1,3 +1,107 @@
+// -
+//     const choice = [
+//         {
+//             data: "tab-1",
+//             tab: "#tab-1",
+//             img: "img/choice/door/classicStyle.png",
+//             text: 'Эмаль',
+//         },
+//         {
+//             data: "tab-2",
+//             tab: "#tab-2",
+//             img: "img/choice/door/ecoEnamel.png",
+//             text: 'Шпоновые',
+//         },
+//         {
+//             data: "tab-3",
+//             tab: "#tab-3",
+//             img: "img/choice/door/veneer.png",
+//             text: 'Полипропиленовые',
+//         },
+//         {
+//             data: "tab-4",
+//             tab: "#tab-4",
+//             img: "img/choice/door/veneer.png",
+//             text: 'Экошпованые',
+//         },
+//         {
+//             data: "tab-5",
+//             tab: "#tab-5",
+//             img: "img/choice/door/wooden.png",
+//             text: 'Деревянные',
+//         },
+//         {
+//             data: "tab-6",
+//             tab: "#tab-6",
+//             img: "img/choice/door/enamel.png",
+//             text: 'Современные стиль',
+//         },
+//         {
+//             data: "tab-7",
+//             tab: "#tab-7",
+//             img: "img/choice/door/enamel.png",
+//             text: 'Современные стиль',
+//         },
+//         {
+//             data: "tab-8",
+//             tab: "#tab-8",
+//             img: "img/choice/door/high-TechStyle.png",
+//             text: 'Стиль Хай-Тек',
+//         },
+//         {
+//             data: "tab-9",
+//             tab: "#tab-9",
+//             img: "img/choice/door/high-TechStyle.png",
+//             text: 'Классический стиль',
+//         },
+//         {
+//             data: "tab-10",
+//             tab: "#tab-10",
+//             img: "img/choice/door/modernStyleWho.png",
+//             text: 'Стиль Прованс',
+//         },
+//         {
+//             data: "tab-11",
+//             tab: "#tab-11",
+//             img: "img/choice/door/modernStyleWho.png",
+//             text: 'Стиль Модрн',
+//         },
+//
+//         {
+//             data: "tab-12",
+//             tab: "#tab-12",
+//             img: "img/choice/door/withMdf.png",
+//             text: 'С МДФ',
+//         },
+//         {
+//             data: "tab-13",
+//             tab: "#tab-13",
+//             img: "img/choice/door/enamel.png",
+//             text: 'Современные стиль',
+//         },
+//         {
+//             data: "tab-14",
+//             tab: "#tab-14",
+//             img: "img/choice/door/high-TechStyle.png",
+//             text: 'Стиль Хай-Тек',
+//         },
+//         {
+//             data: "tab-15",
+//             tab: "#tab-15",
+//             img: "img/choice/door/high-TechStyle.png",
+//             text: 'Классический стиль',
+//         },
+//         {
+//             data: "tab-16",
+//             tab: "#tab-16",
+//             img: "img/choice/door/modernStyleWho.png",
+//             text: 'Стиль Прованс',
+//         },
+//     ];
+//
+// each item in choice
+
+
 section.choice
     .container
         .choice-wrapper
@@ -6,7 +110,7 @@ section.choice
             .choice-accordion
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src='img/choice/door/classicStyle.png')
                     .accordion-title(data-tab="tab-1")
                         h3 Эмалевые
                         svg.icon
@@ -28,9 +132,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/ecoEnamel.png")
                     .accordion-title(data-tab="tab-2")
-                        h3 Эмалевые
+                        h3 Шпоновые
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-2.accordion-content
@@ -50,9 +154,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/veneer.png")
                     .accordion-title(data-tab="tab-3")
-                        h3 Эмалевые
+                        h3 Полипропиленовые
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-3.accordion-content
@@ -72,9 +176,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/veneer.png")
                     .accordion-title(data-tab="tab-4")
-                        h3 Эмалевые
+                        h3 Экошпованые
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-4.accordion-content
@@ -94,9 +198,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/wooden.png")
                     .accordion-title(data-tab="tab-5")
-                        h3 Эмалевые
+                        h3 Деревянные
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-5.accordion-content
@@ -116,9 +220,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/enamel.png")
                     .accordion-title(data-tab="tab-6")
-                        h3 Эмалевые
+                        h3 Современные стиль
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-6.accordion-content
@@ -138,9 +242,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/enamel.png")
                     .accordion-title(data-tab="tab-7")
-                        h3 Эмалевые
+                        h3 Современные стиль
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-7.accordion-content
@@ -160,9 +264,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/high-TechStyle.png")
                     .accordion-title(data-tab="tab-8")
-                        h3 Эмалевые
+                        h3 Стиль Хай-Тек
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-8.accordion-content
@@ -182,9 +286,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/high-TechStyle.png")
                     .accordion-title(data-tab="tab-9")
-                        h3 Эмалевые
+                        h3 Классический стиль
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-9.accordion-content
@@ -204,9 +308,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/modernStyleWho.png")
                     .accordion-title(data-tab="tab-10")
-                        h3 Эмалевые
+                        h3 Стиль Прованс
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-10.accordion-content
@@ -226,9 +330,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/modernStyleWho.png")
                     .accordion-title(data-tab="tab-11")
-                        h3 Эмалевые
+                        h3 Стиль Модрн
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-11.accordion-content
@@ -248,9 +352,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/withMdf.png")
                     .accordion-title(data-tab="tab-12")
-                        h3 Эмалевые
+                        h3 С МДФ
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-12.accordion-content
@@ -270,9 +374,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/enamel.png")
                     .accordion-title(data-tab="tab-13")
-                        h3 Эмалевые
+                        h3 Современные стиль
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-13.accordion-content
@@ -292,9 +396,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/high-TechStyle.png")
                     .accordion-title(data-tab="tab-14")
-                        h3 Эмалевые
+                        h3 Стиль Хай-Тек
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-14.accordion-content
@@ -314,9 +418,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/high-TechStyle.png")
                     .accordion-title(data-tab="tab-15")
-                        h3 Эмалевые
+                        h3 Классический стиль
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-15.accordion-content
@@ -336,9 +440,9 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/modernStyleWho.png")
                     .accordion-title(data-tab="tab-16")
-                        h3 Эмалевые
+                        h3 Стиль Прованс
                         svg.icon
                             use(href=`./img/choice/array.svg#array`)
                     #tab-16.accordion-content
@@ -358,7 +462,7 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/modernStyleWho.png")
                     .accordion-title(data-tab="tab-17")
                         h3 Эмалевые
                         svg.icon
@@ -380,7 +484,7 @@ section.choice
                             a(href="#") Эмолированные
                 .accordion
                     .accordion-imag
-                        img(src="img/choice/door.png")
+                        img(src="img/choice/door/modernStyleWho.png")
                     .accordion-title(data-tab="tab-18")
                         h3 Эмалевые
                         svg.icon

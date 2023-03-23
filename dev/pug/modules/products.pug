@@ -1,0 +1,74 @@
+link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css')
+script(src='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js')
+
+
+    -
+        const products = [
+            {
+                path: "img/products/split.jpg",
+                title: 'Split Распашная',
+                prise: "от 84 470 тенге"
+            },
+            {
+                path: "img/products/stellaTwo.png",
+                title: 'Стелла 2',
+                prise: "от 104 787 тенге"
+            },
+            {
+                path: "img/products/linewood.jpg",
+                title: 'Лайнвуд 1',
+                prise: "от 108 293 тенге"
+            },
+            {
+                path: "img/products/lester.jpg",
+                title: 'Лестер Распашная',
+                prise: "от 59 550 тенге"
+            },
+            {
+                path: "img/products/flexOne.jpg",
+                title: 'Флекс 1 Молдинг Золото Распашная',
+                prise: "от 84 470 тенге"
+            },
+            {
+                path: "img/products/cremonaOne.jpg",
+                title: 'Кремона 1 Распашная',
+                prise: "от 84 470 тенге"
+            },
+            {
+                path: "img/products/split.jpg",
+                title: 'Скрытые',
+                prise: "от 84 470 тенге"
+            },
+            {
+                path: "img/products/split.jpg",
+                title: 'Скрытые',
+                prise: "от 84 470 тенге"
+            },
+            {
+                path: "img/products/split.jpg",
+                title: 'Скрытые',
+                prise: "от 84 470 тенге"
+            },
+        ];
+
+
+
+
+section.products
+    .container
+        .products-wrap
+            .products-header
+                h2 Популярные товары
+            .swiper.mySwiper
+                .swiper-wrapper
+                        each item in products
+                            .swiper-slide
+                                .block-imag
+                                    img(src=item.path)
+                                .block-about
+                                    .block-title #{item.title}
+                                    .block-prise #{item.prise}
+                                .block-button
+                                    button Заказать
+                .swiper-button-next
+                .swiper-button-prev
