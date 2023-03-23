@@ -1,0 +1,82 @@
+  -
+      const collections = [
+          {
+              text: 'Скрытые',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          }, {
+              text: 'Скрытые',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          }, {
+              text: 'Скрытые',
+              path: "#",
+          },
+
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+          {
+              text: 'Для ванной и туалета',
+              path: "#",
+          },
+      ];
+
+
+section.interiors
+    .container
+        .interiors-wrap
+            .interiors-blocks
+                .interiors-header
+                    h2 Межкомнатные двери
+                    a(href="#").button Показать все
+                .interiors-collections
+                    h3 Наши коллекции
+                    .collections-block
+                        each item in collections
+                            .item-wrap
+                                a(href=`./${item.path}`) #{item.text}
+            .interiors-imag
+                img(src="img/interiors/interiors.png")
+
+
+

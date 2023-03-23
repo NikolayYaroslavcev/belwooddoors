@@ -1,0 +1,12 @@
+header.header
+  .container
+    .header-container
+      button(data-action="burger-menu-switcher").header-burger
+        -for(let i=0; i<3; i++)
+          span
+      .header-vi
+        button.vi-sw-on-btn
+          span Версия для слабовидящих
+    include ./vi
+  .header-dropdown(data-burger-menu)
+    .container Header-dropdown

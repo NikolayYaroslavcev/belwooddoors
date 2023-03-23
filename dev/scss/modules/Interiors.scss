@@ -1,0 +1,115 @@
+.interiors {
+  margin-top: 100px;
+  margin-bottom: 128px;
+
+  .container {
+
+    .interiors-wrap {
+      display: flex;
+      gap: 5px;
+      justify-content: space-between;
+      @media(max-width: 1347px) {
+        flex-direction: column-reverse;
+        //align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+
+
+      .interiors-blocks {
+        .interiors-header {
+          display: flex;
+          gap: 15px;
+          justify-content: space-between;
+          margin-bottom: 23px;
+
+          h2 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            color: #222227;
+          }
+
+          .button {
+            padding: 10px 20px;
+            gap: 10px;
+            width: 137px;
+            height: 39px;
+            background: #FF652E;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 19px;
+            color: #FFFFFF;
+            cursor: pointer;
+          }
+        }
+
+        .interiors-collections {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          h3 {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            color: #222227;
+          }
+
+          .collections-block {
+            //display: flex;
+            //flex-direction: column;
+            //gap: 10px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            @media(max-width: 891px) {
+              grid-template-columns: repeat(4, 1fr);
+
+            }
+            @media(max-width: 717px) {
+              grid-template-columns: repeat(3, 1fr);
+            }
+            @media(max-width: 545px) {
+              grid-template-columns: repeat(2, 1fr);
+            }
+            @media(max-width: 321px) {
+              grid-template-columns: repeat(1, 1fr);
+            }
+            @media(max-width: 1347px) {
+              align-items: center;
+            }
+              .item-wrap {
+                border: 0.980392px solid #CCCCCC;
+                border-radius: 2.94118px;
+                padding: 8px 5px;
+                cursor: pointer;
+
+                a {
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 19px;
+                  color: #777777;
+                }
+
+            }
+          }
+        }
+      }
+
+      .interiors-imag {
+        @media(max-width: 1347px) {
+          text-align: center;
+        }
+        img {
+
+        }
+      }
+    }
+  }
+
+}
