@@ -27,6 +27,9 @@
           gap: 15px;
           justify-content: space-between;
           margin-bottom: 23px;
+          @media(max-width: 426px) {
+            flex-direction: column;
+          }
 
           h2 {
             font-weight: 600;
@@ -53,6 +56,12 @@
             cursor: pointer;
             border: 1px solid #ff652e;
             transition: all .25s linear;
+            @media(max-width: 426px) {
+              width: 137px;
+              height: 39px;
+              padding: 10px 18px;
+            }
+
 
             &:hover {
               background-color: #ee490e;
