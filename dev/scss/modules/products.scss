@@ -88,7 +88,7 @@
 
         &-button-prev {
           color: black;
-          left: 20px;
+          left: -4px;
 
           &:after {
             font-size: 10px;
@@ -102,6 +102,7 @@
         &-button-next {
           color: black;
           font-size: 10px;
+          right: -8px;
 
           &:after {
             font-size: 10px;
