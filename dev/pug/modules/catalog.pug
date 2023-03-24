@@ -1,42 +1,42 @@
- -
-     const catalog = [
-         {
-             path: 'img/catalog/Interiors.png',
-             title: 'Межкомнатные двери',
-             link:"#"
-         },
-         {
-             path: 'img/catalog/entrances.png',
-             title: 'Входные двери',
-             link: "#"
-         },
-         {
-             path: 'img/catalog/decor.png',
-             title: 'Декор',
-             link: "#"
-         },
-         {
-             path: 'img/catalog/floor.png',
-             title: 'Напольные покрытия',
-             link: "#"
-         },
-         {
-             path: 'img/catalog/special.png',
-             title: 'Специальные двери',
-             link: "#"
-         },
-         {
-             path: 'img/catalog/fittings.png',
-             title: 'Фурнитура',
-             link: "#"
-         }
-     ];
+-
+    const catalog = [
+        {
+            path: 'img/catalog/Interiors.png',
+            title: 'Межкомнатные двери',
+            link: "#"
+        },
+        {
+            path: 'img/catalog/entrances.png',
+            title: 'Входные двери',
+            link: "#"
+        },
+        {
+            path: 'img/catalog/decor.png',
+            title: 'Декор',
+            link: "#"
+        },
+        {
+            path: 'img/catalog/floor.png',
+            title: 'Напольные покрытия',
+            link: "#"
+        },
+        {
+            path: 'img/catalog/special.png',
+            title: 'Специальные двери',
+            link: "#"
+        },
+        {
+            path: 'img/catalog/fittings.png',
+            title: 'Фурнитура',
+            link: "#"
+        }
+    ];
 
 section.catalog
     .container
         h1.catalog-title  Каталог товаров
         ul.catalog-block
-             each block in catalog
+            each item in catalog
                 li
                     a(href="#")
                         .block-container
