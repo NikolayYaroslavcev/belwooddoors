@@ -63,9 +63,9 @@ section.products
                 .swiper-wrapper
                     each item in products
                         .swiper-slide
+                            .block-imag
+                                img(src=item.path)
                             .block-about
-                                .block-imag
-                                    img(src=item.path)
                                 .block-title #{item.title}
                                 .block-prise #{item.prise}
                             .block-button
