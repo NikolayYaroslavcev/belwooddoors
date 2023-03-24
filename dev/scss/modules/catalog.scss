@@ -1,6 +1,14 @@
 .catalog {
+  padding-top: 100px;
+  @media(max-width: 769px) {
+    padding-top: 20px;
+  }
   .container {
     .catalog-title {
+      margin: 30px 0;
+      font: bold 30px Roboto,sans-serif;
+      line-height: 45px;
+      text-transform: uppercase;
     }
 
     .catalog-block {
@@ -21,6 +29,7 @@
           padding: 0;
         }
 
+
         a {
           color: #333;
 
@@ -31,6 +40,11 @@
             max-height: 225px;
             padding: 3px;
             border: 1px solid #ccc;
+            transition: all .25s linear;
+
+            &:hover {
+              border: 1px solid #797474;
+            }
 
             .imag-container {
               display: table-cell;

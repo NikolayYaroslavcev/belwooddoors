@@ -61,14 +61,14 @@ section.products
                 h2 Популярные товары
             .swiper.mySwiper
                 .swiper-wrapper
-                        each item in products
-                            .swiper-slide
+                    each item in products
+                        .swiper-slide
+                            .block-about
                                 .block-imag
                                     img(src=item.path)
-                                .block-about
-                                    .block-title #{item.title}
-                                    .block-prise #{item.prise}
-                                .block-button
-                                    button Заказать
+                                .block-title #{item.title}
+                                .block-prise #{item.prise}
+                            .block-button
+                                button Заказать
                 .swiper-button-next
                 .swiper-button-prev

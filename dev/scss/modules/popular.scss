@@ -1,11 +1,19 @@
 .popular {
+  margin-bottom: 128px;
+  @media(max-width: 769px) {
+    margin-bottom: 20px;
+  }
+
   .container {
     .popular-wrap {
       .popular-header {
         margin-bottom: 20px;
 
-        h2 {
-
+        h3 {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 33px;
+          color: #222227;
         }
       }
 
@@ -14,6 +22,8 @@
         grid-template-columns: repeat(6, 1fr);
         grid-column-gap: 2px;
         grid-row-gap: 2px;
+        transition: all .25s linear;
+
         @media(max-width: 1069px) {
           grid-template-columns: repeat(5, 1fr);
         }
@@ -39,6 +49,12 @@
           background: #FFFFFF;
           box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
           padding: 44px 22px;
+          transition: all .25s linear;
+          &:hover {
+            background-color:#F4F4F4;
+          }
+
+
 
           .block-img {
             width: 100%;
