@@ -1,5 +1,4 @@
 .choice {
-  margin-bottom: 60px;
   .container {
     .choice-wrapper {
       display: flex;
@@ -7,6 +6,7 @@
       gap: 20px;
 
       .choice-title {
+        margin-bottom: 20px;
 
         h3 {
           font-weight: 400;

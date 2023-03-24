@@ -1,15 +1,15 @@
 extends ../layout/main
 
 block variables
-    - const title = 'Главная';
+  - const title = 'Главная';
 
 block libs-js
-    script(defer src="./libs/swiper-bundle.min.js")
-    script(src="./js/scripts/mp.js")
+  script(defer src="./libs/swiper-bundle.min.js")
+  script(src="./js/scripts/mp.js")
 
 block libs-css
-    link(rel="stylesheet" type='text/css' href="./libs/swiper-bundle.min.css")
-    link(rel="stylesheet" type='text/css' href="./css/mp.css")
+  link(rel="stylesheet" type='text/css' href="./libs/swiper-bundle.min.css")
+  link(rel="stylesheet" type='text/css' href="./css/mp.css")
 
 block content
     include ../modules/header
@@ -22,4 +22,4 @@ block content
         include ../modules/products
         include ../modules/newsletter
 
-    include ../modules/footer
+  include ../modules/footer
