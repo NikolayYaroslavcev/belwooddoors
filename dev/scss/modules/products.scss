@@ -58,23 +58,29 @@
 
 
           .block-button {
-            padding: 10px 20px;
             background: #FF652E;
             border-radius: 8px;
-            align-self: center;
             transition: all .25s linear;
+            display: flex;
+            justify-content: center;
+            padding: 5px 10px;
+
+            button{
+              align-self: center;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 19px;
+              color: #FFFFFF;
+            }
+            .icon{
+              width: 25px;
+              height: 25px;
+            }
 
             &:hover {
               background-color: #ee490e;
               color: #fff;
               border-color: #ee490e;
-            }
-
-            button {
-              font-weight: 700;
-              font-size: 14px;
-              line-height: 19px;
-              color: #FFFFFF;
             }
           }
         }
