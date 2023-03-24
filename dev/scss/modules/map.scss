@@ -30,6 +30,11 @@
               line-height: 21px;
               text-decoration-line: underline;
               color: #FF562E;
+              transition: all .25s linear;
+
+              &:hover {
+                text-decoration-line: blink;
+              }
             }
             .nav-button{
               padding: 10px 20px;
